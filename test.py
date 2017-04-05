@@ -83,7 +83,8 @@ print "4 - c 的值为：", c
 c = a % b
 print "5 - c 的值为：", c
 
-a = 1
+a = 0
+
 b = 20
 
 print "a and b : ",  a and b
@@ -91,6 +92,7 @@ print "a and b : ",  a and b
 print "a or b : ", a or b
 
 print "not a : ", not a
+
 
 a = 10
 b = 20
@@ -122,3 +124,4 @@ if (num >= 0 and num <= 5) or (num >= 10 and num <= 15):
     print 'hello'
 else:
     print 'undefine'
+
