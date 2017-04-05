@@ -82,3 +82,43 @@ print "4 - c 的值为：", c
 
 c = a % b
 print "5 - c 的值为：", c
+
+a = 1
+b = 20
+
+print "a and b : ",  a and b
+
+print "a or b : ", a or b
+
+print "not a : ", not a
+
+a = 10
+b = 20
+c = (1, 2, 3, 10)
+
+if( a in c):
+  print "a in c"
+else:
+  print "a not in c"
+
+if(b not in c):
+  print "b not in c"
+else:
+  print "b in c"
+
+num = 9
+if num >= 0 and num <= 10: 
+    print 'hello'
+
+num = 10
+if num < 0 or num > 10:
+    print 'hello'
+else:
+    print 'undefine'
+
+num = 3
+# 判断值是否在0~5或者10~15之间
+if (num >= 0 and num <= 5) or (num >= 10 and num <= 15):    
+    print 'hello'
+else:
+    print 'undefine'
