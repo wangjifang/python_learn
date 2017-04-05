@@ -82,3 +82,27 @@ print "4 - c 的值为：", c
 
 c = a % b
 print "5 - c 的值为：", c
+
+a = 0
+b = 20
+
+print "a and b : ",  a and b
+
+print "a or b : ", a or b
+
+print "not a : ", not a
+
+
+a = 10
+b = 20
+c = (1, 2, 3, 10)
+
+if( a in c):
+  print "a in c"
+else:
+  print "a not in c"
+
+if(b not in c):
+  print "b not in c"
+else:
+  print "b in c"
